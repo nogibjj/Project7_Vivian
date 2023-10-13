@@ -1,5 +1,6 @@
 # README [![CI](https://github.com/nogibjj/Vivian_Project6/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Vivian_Project6/actions/workflows/ci.yml)
 This repository features the materials for Mini-Project 6. The important files are:
+- setup.py
 - Makefile
 - cicd.yml
 - lib.py
@@ -10,7 +11,8 @@ This repository features the materials for Mini-Project 6. The important files a
 
 ## Purpose Of Project
 - Connect to a cloud mySQL database
-- Design a complex SQL query involving joins, aggregation, and sorting and perform the query with CICD. 
+- Design a complex SQL query involving joins, aggregation, and sorting and perform the query with CICD.
+- Create an ETL-Query pipeline utilizing MySQL cloud database and create an executable by packaging the project. 
 
 ## Preparation 
 1. open the project in codespaces
