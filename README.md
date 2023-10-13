@@ -1,4 +1,4 @@
-# README [![CI](https://github.com/nogibjj/Vivian_Project6/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Vivian_Project6/actions/workflows/ci.yml)
+# README [![CI](https://github.com/nogibjj/Project7_Vivian/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Project7_Vivian/actions/workflows/ci.yml)
 This repository features the materials for Mini-Project 6. The important files are:
 - setup.py
 - Makefile
@@ -21,18 +21,24 @@ This repository features the materials for Mini-Project 6. The important files a
 ## Steps
 1. set up a cloud MySQL database called "BarBeerDrinker" which includes 2 tables: Bar and Sells. Bar includes all in-network bars and Sells includes all past time, type, and year of the beers sold at each bar. 
 2. make a .env file and store my connection information including SERVER_HOSTNAME, SERVER_PORT, USER_NAME, ACCESS_TOKEN, and DATABASE_NAME.
-4. connect to the cloud database and run a complex query.
-5. obtain the result after querying on the cloud database. 
+3. build packaged project by running: "python setup.py develop --user"
+
+<img width="936" alt="Screen Shot 2023-10-13 at 1 49 49 PM" src="https://github.com/nogibjj/Project7_Vivian/assets/143654445/8d5189ac-2b4e-4ab4-86eb-f99ebbbda072">
+
+5. Run in command-line "etl_query" which will call main.py and do the following:
+   - connect to the cloud database and run a complex query.
+   - obtain the result after querying on the cloud database.
+<img width="580" alt="Screen Shot 2023-10-13 at 1 48 39 PM" src="https://github.com/nogibjj/Project7_Vivian/assets/143654445/ea3b2761-4951-40e8-998f-32c3dcffe908">
 
 ## Check Format & Errors
 1. make format
 2. make lint
    
-<img width="680" alt="Screen Shot 2023-10-08 at 6 08 20 PM" src="https://github.com/vivianzzzzz/Template/assets/143654445/3a4ff1e7-0e71-451d-955e-a94fd264977f">
+<img width="486" alt="Screen Shot 2023-10-13 at 1 50 39 PM" src="https://github.com/nogibjj/Project7_Vivian/assets/143654445/44ab2fd0-1a30-46f7-b1d3-a755895ce2b3">
    
 3. make test
    
-<img width="889" alt="Screen Shot 2023-10-08 at 6 08 29 PM" src="https://github.com/vivianzzzzz/Template/assets/143654445/9df54e70-ecd7-403c-ba6c-59816ef17560">
+<img width="940" alt="Screen Shot 2023-10-13 at 1 50 23 PM" src="https://github.com/nogibjj/Project7_Vivian/assets/143654445/cbbd76f9-7c35-4f8b-ae52-e112b3676270">
 
 ## Query
 Query and Results: 
@@ -51,7 +57,6 @@ Final Output:
 The result of the query will be a list of cities and the number of bars in each city that do not have any item priced above 5.
 This result can also be retrieved in the log file. 
 
-<img width="898" alt="Screen Shot 2023-10-08 at 6 07 51 PM" src="https://github.com/vivianzzzzz/Template/assets/143654445/a1f2edac-99da-4673-b89c-194a1698d6b0">
 
 ## Visualization
 
